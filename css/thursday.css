@@ -1,11 +1,31 @@
-/* Background
+/* Background*/
 
-{ background-color: #CCC; }
-{ background-img: url('image.png'); }
+body { background-color: rgba(0,0,25,.5);}
+header { 
+	background-color: rgba(0,0,125,.5); 
+	padding: 25px; 
+	max-width: 750px; 
+	min-width: 500px; 
+	margin: 0px 10% 10% 10%;
+	float: left;
+}
+.preamble {
+	clear: both;
+}
+body {
+	background-image: url('../woodpanel.png');
+	background-size: 800px 600px;
+	background-repeat: no-repeat;
+}
+header h2 { 
+	opacity: 0.1; 
+	background-color: yellow; 
+}
+/*{ background-img: url('image.png'); }
 { background-size: 80px 60px; }
-{ background-repeat: no-repeat }
+{ background-repeat: no-repeat }*/
 
-*/
+
 
 /* Sizing, overflow, display
 
